@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("HD-wallpaper-american-dollars-money-texture-green-finance-texture-100-dollars-green-money-background-currency-concepts.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#converter-container {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); 
+  border-radius: 10px;
+}
+
+#output {
+  font-size: 24px;
+  color: green;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
